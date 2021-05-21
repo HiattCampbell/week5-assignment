@@ -1,0 +1,100 @@
+.App {
+  padding-top: 4rem;
+  min-height: 100vh;
+  background-color: blanchedalmond;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #D0312D !important;
+}
+
+.navbar-brand {
+  margin-left: 10px;
+}
+
+.pokedexLogo {
+  width: 100px;
+  height: auto;
+}
+
+.cardContainer {
+  margin-top: 20px;
+}
+
+.cardIndex {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: large;
+}
+
+.card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.25s cubic-bezier(0.25, 0.8, 1);    
+  background-color: blanchedalmond;
+}
+
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.26), 0 10px 10px rgba(0, 0, 0, 0.21);
+}
+
+.link, .link:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.link:active, .link:focus, .link:visited, .link:link {
+  text-decoration: none;
+}
+
+.pokemonContainer {
+  display: flex;
+}
+
+.pokemonImage {
+  width: 20rem;
+  height: 20rem;
+}
+
+.pokemonTitle {
+  display: flex;
+  margin-right: 20px;
+}
+
+.facts {
+  display: flex;
+  align-items: center;
+}
+
+.titles {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.moves {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.movesList {
+  font-size: small;
+}
+
+.pokemonPage {
+  margin: auto;
+  width: 800px;
+  margin-top: 40px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 1);    
+}
